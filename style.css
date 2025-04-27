@@ -1,0 +1,136 @@
+body{
+  background-color: rgb(185, 174, 4);
+  border-color: black;
+  box-sizing: 40px;
+} h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    
+   
+    
+  }
+  .con{
+    font-size: 30px;
+    color:grey;
+  }
+  
+  .bgimg {
+    background-image: url('images/bitmog.png');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(199, 183, 247);
+    border: black;
+    box-sizing: content-box;
+  }
+  
+  .sidebar {
+    width: 30%;
+  }
+
+
+  
+  .content {
+    margin-left: 30%;
+  }
+  
+  .menu-btn {
+    width: auto;
+    right: 0;/* Apply Montserrat font to all headings and body */
+    body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    /* Ensure bgimg takes full height for the background image */
+    .bgimg {
+        background-image: url('images/port.png');
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    /* Sidebar styles */
+    .sidebar {
+        width: 40%;
+    }
+    
+    .content {
+        margin-left: 40%;
+    }
+    
+    /* Adjust menu button to position it on the right */
+    .menu-btn {
+        width: auto;
+        right: 0;
+    }
+    
+    /* Mobile sidebar styling */
+    .mobile-sidebar {
+        padding-top: 150px;
+        right: 0;
+        z-index: 2;
+    }
+    
+    /* Close button in the mobile sidebar */
+    .close-btn {
+        padding: 0 12px;
+    }
+    
+    /* Portfolio section adjustments */
+    .portfolio-section {
+        margin: 0 -16px;
+    }
+    
+    /* Make each section take full viewport height */
+    section {
+        height: 100vh;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    /* Set the background colors to differentiate sections */
+    #home {
+        background-color: #5d5757;
+       
+    }
+    
+    #portfolio {
+        background-color: #e1e1e1;
+    }
+    
+    #about {
+        background-color: #f9f9f9;
+    }
+    
+    #contact {
+        background-color: #dfe3e6;
+    }
+    
+    /* Adjust text alignment and margins for better readability */
+    section h2, section p {
+        margin: 0;
+    }
+    
+    /* Smooth scrolling behavior */
+    html {
+        scroll-behavior: smooth;
+    }
+    
+  }
+  
+  .mobile-sidebar {
+    padding-top: 150px;
+    right: 0;
+    z-index: 2;
+  }
+  
+  .close-btn {
+    padding: 0 12px;
+  }
+  
+  .portfolio-section {
+    margin: 0 -16px;
+  }
+  
